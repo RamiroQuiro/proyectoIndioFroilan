@@ -4,10 +4,10 @@ import Section from "../../../component/Section";
 
 export default function Contacto() {
   return (
-    <Section>
-      <div className=" mx-auto max-w-screen-xl ">
+    <section className={"flex-col flex mx-auto items-center justify-around w-10/12 my-20" }>
             <H1>Contacto</H1>
-        <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+      <div className=" mx-auto  flex md:flex-row flex-col w-full my-20 gap-x-10 items-center justify-around ">
+        <div className="flex md:flex-row flex-wrap text-center md:text-right flex-col justify-around items-center gap-10">
           <div className="lg:py-12 lg:col-span-2 font-medium">
             <p className="max-w-xl text-lg font-bold ">Información de contacto</p>
             <br />
@@ -141,6 +141,6 @@ export default function Contacto() {
           </div>
         </div>
       </div>
-    </Section>
+    </section>
   );
 }

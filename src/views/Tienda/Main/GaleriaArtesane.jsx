@@ -155,7 +155,7 @@ export default function GaleriaArtesane() {
     artesanos?.map((items,i)=>(
         <div 
         key={i}
-        class="w-[15%] py-3 cursor-pointer hover:scale-105 flex-auto bg-white rounded-lg flex flex-col justify-center items-center">
+        class="md:w-[15%] py-3 cursor-pointer hover:scale-105 flex-auto bg-white rounded-lg flex flex-col justify-center items-center">
         <div class="mb-8">
             <img class="object-center object-cover rounded-full h-36 w-36" src={items.src} alt="photo"/>
         </div>

@@ -4,7 +4,7 @@ import Section from "../../../component/Section"
 
 export default function SectionCards() {
   return (
-    <Section className={"text-white"}>
+    <Section className={"text-white "}>
            <Cards1>
               <H3>
                 Tienda de artesanos

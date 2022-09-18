@@ -4,7 +4,7 @@ import TableHeader from "./TableHeader";
 
 export default function SidebarHeader() {
   return (
-    <div className="rounded-3xl flex flex-col shadow-xl text-neutral-700 bg-white/50 pt-10 backdrop-blur-sm md:h-[750px] md:translate-y-60 md:w-[550px]">
+    <div className="rounded-3xl flex flex-col shadow-xl text-neutral-700 bg-white/50 md:pt-10 backdrop-blur-sm md:h-[750px] md:translate-y-60 w-full md:w-[550px]">
       <div className="w-full flex flex-col items-center justify-between p-2">
         <H3>Categorias</H3>
         <div className="w-full flex gap-3 mx-auto p-2">

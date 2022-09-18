@@ -1,9 +1,8 @@
 import H1 from "../../../component/H1"
-import Section from "../../../component/Section"
 import GaleriaProductos from "./GaleriaProductos"
 export default function SectionProductos() {
   return (
-    <Section className={" flex flex-col py-16 my-20 font-sunday"}>
+    <section className={" flex flex-col py-16 md:my-20 mt-72 font-sunday w-11/12 mx-auto my-20 gap-10"}>
         <H1>Productos</H1>
         <div className="w-full my-10  border-b-4 border-gray-700 h-12 flex items-center justify-around">
             <h3 className="font-medium cursor-pointer hover:scale-105">Todo</h3>
@@ -14,6 +13,6 @@ export default function SectionProductos() {
         </div>
         <GaleriaProductos/>
         <button> ver más</button>
-    </Section>
+    </section>
   )
 }

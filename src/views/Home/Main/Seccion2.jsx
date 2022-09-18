@@ -15,21 +15,21 @@ export default function Seccion2() {
             descipcion:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quo maxime dolores maiores earum in dolorem harum accusantium quaerat totam minima at possimus repellendus quibusdam, enim voluptatem sunt nulla aliquid?",
             img: foto1,
-            className:" "
+            className:"flex md:flex-row flex-col "
         },
         {
             h3: "Titulo 3 skdjlskdjflksjdflkjsdlk",
             descipcion:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quo maxime dolores maiores earum in dolorem harum accusantium quaerat totam minima at possimus repellendus quibusdam, enim voluptatem sunt nulla aliquid?",
             img: foto2,
-            className:"flex-row-reverse "
+            className:" flex md:flex-row-reverse flex-col"
         },
         {
             h3: "Titulo 3 skdjlskdjflksjdflkjsdlk",
             descipcion:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quo maxime dolores maiores earum in dolorem harum accusantium quaerat totam minima at possimus repellendus quibusdam, enim voluptatem sunt nulla aliquid?",
             img: foto3,
-            className:" "
+            className:"flex md:flex-row flex-col "
           },
         ];
     
@@ -40,7 +40,7 @@ export default function Seccion2() {
     <Section className={"min-h-screen relative"}>
     <div className="w-10/12 mx-auto ">
       <H1 className={"text-center"}>El Patio</H1>
-      <p className="w-1/3  text-center my-5 mx-auto">
+      <p className="md:w-1/3  text-center my-5 mx-auto">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Laudantium, ex!
       </p>

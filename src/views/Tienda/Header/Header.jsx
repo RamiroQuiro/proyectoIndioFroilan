@@ -8,12 +8,12 @@ import SidebarHeader from "../../../ComponenteTienda/SidebarHeader";
 
 export default function Header() {
   return (
-    <header className="w-full h-[110vh]  text-neutral-700 relative ">
+    <header className='w-full md:h-[110vh] h-screen text-gray-700 relative '>
       <BackgroundHeader />
       <Navbar />
-      <div className="w-full z-10 md:absolute top-0 left-0 h-full">
-        <div className=" flex flex-wrap flex-col md:flex-row items-center  md:w-10/12 mx-auto h-full justify-between  md:relative">
-          <div className="md:w-1/2 p-5 rounded-lg  bg-white/30 backdrop-blur-sm ">
+      <div className='w-full z-10 md:absolute top-0 left-0 h-full'>
+            <div className=' flex md:flex-row flex-col items-center pt-20 md:pt-0 md:w-10/12 mx-auto h-full justify-between  relative'>
+          <div className="md:w-1/2 p-5 rounded-lg my-5 md:m-0  bg-white/30 backdrop-blur-sm ">
             <H1 className={""}>Tienda Online </H1>
             <p className="text-xl my-5 leading-8">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

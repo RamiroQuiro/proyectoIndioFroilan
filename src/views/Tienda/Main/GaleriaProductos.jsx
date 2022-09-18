@@ -76,7 +76,7 @@ const datos=[
 ]
 
   return (
-    <div className='flex w-full my-20 flex-wrap items-center justify-around mx-auto gap-5'>
+    <div className='flex w-full md:my-20 flex-wrap items-center justify-around mx-auto gap-5'>
         
         {
             !datos? 
